@@ -8,6 +8,7 @@ public class stat : MonoBehaviour
 
     private Image content;
 
+
     private float currentFill; //koti-ikava talla hetkella
 
     public float MyMaxValue {get; set; } //koti-ikavan taysi luku
