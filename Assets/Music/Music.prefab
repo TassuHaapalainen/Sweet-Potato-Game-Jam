@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4047165644757672}
   - component: {fileID: 82533948046293916}
   m_Layer: 0
-  m_Name: Music2
+  m_Name: Music1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4138468552045676}
   - component: {fileID: 82519152553827696}
   m_Layer: 0
-  m_Name: Music1
+  m_Name: Music0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 73179450bd74c4a98b9f129b561cbaf3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -206,7 +206,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 802149e63704f4768b39467f77cd891e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -301,3 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac28c385217f54f39b0a706b237d885f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statReference: {fileID: 0}
+  music0: {fileID: 82519152553827696}
+  music1: {fileID: 82533948046293916}
+  FadeSpeed: 0.5
